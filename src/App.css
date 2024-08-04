@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2d;
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.header-icons span {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.stats-card {
+  background: #2d2d3a;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.stats-card .icon {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-chart {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.side-content {
+  flex: 1;
+}
+
+.net-profit {
+  background: #2d2d3a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.other-links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.orders-feedback {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.recent-orders, .customer-feedback {
+  flex: 1;
+  background: #2d2d3a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.recent-orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-orders th, .recent-orders td {
+  padding: 10px;
+  text-align: left;
+}
+
+.recent-orders .status {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.recent-orders .status.delivered {
+  background-color: #28a745;
+}
+
+.recent-orders .status.cancelled {
+  background-color: #dc3545;
+}
+
+.recent-orders .status.pending {
+  background-color: #ffc107;
+}
+
+.customer-feedback .feedback {
+  margin-bottom: 20px;
+}
