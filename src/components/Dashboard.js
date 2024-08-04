@@ -4,7 +4,7 @@ import StaticCard from './StaticCards';
 import ActivityFile from './ActivityFile';
 import RecentOrders from './Recentorders';
 import CustomerFeedback from './CustomerFeed';
-
+//dashboard
 const Dashboard = () => {
   return (
     <div className="dashboard">
